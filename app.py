@@ -11,7 +11,7 @@ debug = DebugToolbarExtension(app)
 def ask_questions():
     """Generates a form for user to input words"""
 
-    prompts = story.prompt
+    prompts = story.prompts
 
     return render_template('questions.html', prompts=prompts)
 
